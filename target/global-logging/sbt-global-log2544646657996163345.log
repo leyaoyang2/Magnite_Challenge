@@ -1,0 +1,87 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.9.7 (Oracle Corporation Java 17)
+[debug] Load.defaultLoad until apply took 229.860625ms
+[debug]                 Load.loadUnit: plugins took 116.264125ms
+[debug]                 Load.loadUnit: defsScala took 0.388292ms
+[debug] [Loading] Scanning directory /Users/hannahyang/Desktop/Magnite/magnitechallenge/project/project
+[debug]                   Load.loadUnit: mkEval took 8.561041ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in /Users/hannahyang/Desktop/Magnite/magnitechallenge/project/project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 27.691542 ms
+[info] loading settings for project magnitechallenge-build-build from metals.sbt ...
+[debug]                     Load.resolveProject(magnitechallenge-build-build) took 59.1765ms
+[debug]                   Load.loadTransitive: finalizeProject(Project(id magnitechallenge-build-build, base: /Users/hannahyang/Desktop/Magnite/magnitechallenge/project/project, plugins: List(<none>))) took 138.224375ms
+[debug] [Loading] Done in /Users/hannahyang/Desktop/Magnite/magnitechallenge/project/project, returning: (magnitechallenge-build-build)
+[debug]                 Load.loadUnit: loadedProjectsRaw took 584.813875ms
+[debug]                 Load.loadUnit: cleanEvalClasses took 8.507125ms
+[debug]               Load.loadUnit(file:/Users/hannahyang/Desktop/Magnite/magnitechallenge/project/project/, ...) took 720.435333ms
+[debug]             Load.apply: load took 1028.226375ms
+[debug]             Load.apply: resolveProjects took 4.230334ms
+[debug]             Load.apply: finalTransforms took 121.967458ms
+[debug]             Load.apply: config.delegates took 6.110708ms
+[debug]             Load.apply: Def.make(settings)... took 1316.602417ms
+[debug]             Load.apply: structureIndex took 237.414459ms
+[debug]             Load.apply: mkStreams took 1.227792ms
+[info] loading project definition from /Users/hannahyang/Desktop/Magnite/magnitechallenge/project/project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]           Load.loadUnit: plugins took 4340.670125ms
+[debug]           Load.loadUnit: defsScala took 0.002083ms
+[debug] [Loading] Scanning directory /Users/hannahyang/Desktop/Magnite/magnitechallenge/project
+[debug]             Load.loadUnit: mkEval took 0.643208ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in /Users/hannahyang/Desktop/Magnite/magnitechallenge/project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(bloop.integrations.sbt.BloopPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(bloop.integrations.sbt.BloopPlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,bloop.integrations.sbt.BloopPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 4.145875 ms
+[info] loading settings for project magnitechallenge-build from metals.sbt ...
+[debug]               Load.resolveProject(magnitechallenge-build) took 20.146583ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id magnitechallenge-build, base: /Users/hannahyang/Desktop/Magnite/magnitechallenge/project, plugins: List(<none>))) took 26.008958ms
+[debug] [Loading] Done in /Users/hannahyang/Desktop/Magnite/magnitechallenge/project, returning: (magnitechallenge-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 67.965917ms
+[debug]           Load.loadUnit: cleanEvalClasses took 1.449875ms
+[debug]         Load.loadUnit(file:/Users/hannahyang/Desktop/Magnite/magnitechallenge/project/, ...) took 4411.003375ms
+[debug]       Load.apply: load took 4415.079875ms
+[debug]       Load.apply: resolveProjects took 1.326042ms
+[debug]       Load.apply: finalTransforms took 30.505875ms
+[debug]       Load.apply: config.delegates took 2.128209ms
+[debug]       Load.apply: Def.make(settings)... took 409.728417ms
+[debug]       Load.apply: structureIndex took 65.680291ms
+[debug]       Load.apply: mkStreams took 0.002833ms
+[info] loading project definition from /Users/hannahyang/Desktop/Magnite/magnitechallenge/project
+[debug] Evaluating tasks: bloopInstall
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true

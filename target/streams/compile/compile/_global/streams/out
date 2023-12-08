@@ -1,0 +1,32 @@
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: /Users/hannahyang/Desktop/Magnite/magnitechallenge/src/main/scala/MyPackage/DataExtractor.scala:22:11 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m22 |[0m      .csv(filePath)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m           ^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m           Not found: filePath[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: /Users/hannahyang/Desktop/Magnite/magnitechallenge/src/main/scala/MyPackage/DataProcessor.scala:15:37 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m15 |[0m      .agg(avg([31m"total_revenue"[0m).cast(DoubleType).alias([31m"avg_advertiser_revenue"[0m))[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m                                     ^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m                                     Not found: DoubleType[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E134] Type Error: /Users/hannahyang/Desktop/Magnite/magnitechallenge/src/main/scala/MyPackage/TimeSeriesAnalysis.scala:23:6 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m23 |[0m      lag(col([31m"daily_impressions"[0m)).over(windowSpec))[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m      ^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0mNone of the overloaded alternatives of [33mmethod[0m [35mlag[0m in [33mobject[0m [35mfunctions[0m with types[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m (e: org.apache.spark.sql.Column, offset: Int, defaultValue: Any, ignoreNulls:[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m  Boolean): org.apache.spark.sql.Column[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m (e: org.apache.spark.sql.Column, offset: Int, defaultValue: Any):[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m  org.apache.spark.sql.Column[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m (columnName: String, offset: Int, defaultValue: Any):[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m  org.apache.spark.sql.Column[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m (columnName: String, offset: Int): org.apache.spark.sql.Column[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m (e: org.apache.spark.sql.Column, offset: Int): org.apache.spark.sql.Column[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0mmatch arguments (org.apache.spark.sql.Column)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: /Users/hannahyang/Desktop/Magnite/magnitechallenge/src/main/scala/main.scala:5:7 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m5 |[0m[33mimport[0m MyPackage.{DataExtractor}[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m  |[0m       ^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0m       Not found: MyPackage[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0mfour errors found[0m
