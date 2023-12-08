@@ -8,6 +8,7 @@ This Scala project aims to perform data extraction, cleaning, processing, aggreg
   - [Table of Contents](#table-of-contents)
   - [Project Overview](#project-overview)
   - [Getting Started](#getting-started)
+    - [Github Structure](#github-structure)
     - [Prerequisites](#prerequisites)
     - [Installation and execution](#installation-and-execution)
   - [Results](#results)
@@ -28,6 +29,12 @@ This project includes data extraction, cleaning, processing, aggregation, config
 
 ## Getting Started
 
+### Github Structure
+There are two parts in this Github repository.
+
+- MagniteChallenge_python.ipynb: simple Python with PySpark solution to the task 
+- The rest: Scala with Spark solution to the task (as required)
+
 ### Prerequisites
 
 Following are the prerequisites need to be installed:
@@ -38,11 +45,17 @@ Following are the prerequisites need to be installed:
 
 ### Installation and execution 
 
+Scala solution: 
 1. Clone this repository to your local machine
 2. Navigate to the project directory
 3. Update the `application.conf` file in the `src/main/resources` directory with the necessary configuration parameters, such as file paths.
 4. Build and run the project using SBT: sbt clean compile, sbt run 
 5. Run the tests using SBT: sbt test
+
+Python Solution:
+1. Clone this repository to your local machine
+2. Navigate to the project directory
+3. Run MagniteChallenge_python.ipynb with required libraries installed
 
 ## Results
 
